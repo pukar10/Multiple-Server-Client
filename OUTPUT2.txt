@@ -1,0 +1,369 @@
+For network 1
+
+[[0, 2, 999999, 999999, 1], [2, 0, 5, 999999, 999999], [999999, 5, 0, 4, 999999], [999999, 999999, 4, 0, 1], [1, 999999, 999999, 1, 0]]
+Node Server: A Listening. . .
+Node Server: B Listening. . .
+Node Server: C Listening. . .
+Node Server: D Listening. . .
+Node Server: E Listening. . .
+
+Round 1: A
+Current DV matrix = []
+Last DV matrix = [0, 2, 999999, 999999, 1]
+Updated from last DV matrix or the same? 
+Updated 
+
+Sending DV to node B
+Node B received DV from node A
+[0, 2, 999999, 999999, 1]
+Sending DV to node E
+Node E received DV from node A
+[0, 2, 999999, 999999, 1]
+
+Round 2: B
+Current DV matrix = []
+Last DV matrix = [2, 0, 5, 999999, 3]
+Updated from last DV matrix or the same? 
+Updated 
+
+Sending DV to node A
+Node A received DV from node B
+[2, 0, 5, 999999, 3]
+Sending DV to node C
+Node C received DV from node B
+[2, 0, 5, 999999, 3]
+
+Round 3: C
+Current DV matrix = []
+Last DV matrix = [7, 5, 0, 4, 8]
+Updated from last DV matrix or the same? 
+Updated 
+
+Sending DV to node B
+Node B received DV from node C
+[7, 5, 0, 4, 8]
+Sending DV to node D
+Node D received DV from node C
+[7, 5, 0, 4, 8]
+
+Round 4: D
+Current DV matrix = []
+Last DV matrix = [11, 9, 4, 0, 1]
+Updated from last DV matrix or the same? 
+Updated 
+
+Sending DV to node C
+Node C received DV from node D
+[11, 9, 4, 0, 1]
+Sending DV to node E
+Node E received DV from node D
+[11, 9, 4, 0, 1]
+
+Round 5: E
+Current DV matrix = []
+Last DV matrix = [1, 3, 5, 1, 0]
+Updated from last DV matrix or the same? 
+Updated 
+
+Sending DV to node A
+Node A received DV from node E
+[1, 3, 5, 1, 0]
+Sending DV to node D
+Node D received DV from node E
+[1, 3, 5, 1, 0]
+
+Round 6: A
+Current DV matrix = [0, 2, 999999, 999999, 1]
+Last DV matrix = [0, 2, 6, 2, 1]
+Updated from last DV matrix or the same? 
+Updated 
+
+Sending DV to node B
+Node B received DV from node A
+[0, 2, 6, 2, 1]
+Sending DV to node E
+Node E received DV from node A
+[0, 2, 6, 2, 1]
+
+Round 7: B
+Current DV matrix = [2, 0, 5, 999999, 3]
+Last DV matrix = [2, 0, 5, 4, 3]
+Updated from last DV matrix or the same? 
+Updated 
+
+Sending DV to node A
+Node A received DV from node B
+[2, 0, 5, 4, 3]
+Sending DV to node C
+Node C received DV from node B
+[2, 0, 5, 4, 3]
+
+Round 8: C
+Current DV matrix = [7, 5, 0, 4, 8]
+Last DV matrix = [7, 5, 0, 4, 5]
+Updated from last DV matrix or the same? 
+Updated 
+
+Sending DV to node B
+Node B received DV from node C
+[7, 5, 0, 4, 5]
+Sending DV to node D
+Node D received DV from node C
+[7, 5, 0, 4, 5]
+
+Round 9: D
+Current DV matrix = [11, 9, 4, 0, 1]
+Last DV matrix = [2, 4, 4, 0, 1]
+Updated from last DV matrix or the same? 
+Updated 
+
+Sending DV to node C
+Node C received DV from node D
+[2, 4, 4, 0, 1]
+Sending DV to node E
+Node E received DV from node D
+[2, 4, 4, 0, 1]
+
+Round 10: E
+Current DV matrix = [1, 3, 5, 1, 0]
+Last DV matrix = [1, 3, 5, 1, 0]
+Updated from last DV matrix or the same? 
+Not Updated 
+
+
+Round 10: A
+Current DV matrix = [0, 2, 6, 2, 1]
+Last DV matrix = [0, 2, 6, 2, 1]
+Updated from last DV matrix or the same? 
+Not Updated 
+
+
+Round 10: B
+Current DV matrix = [2, 0, 5, 4, 3]
+Last DV matrix = [2, 0, 5, 4, 3]
+Updated from last DV matrix or the same? 
+Not Updated 
+
+
+Round 10: C
+Current DV matrix = [7, 5, 0, 4, 5]
+Last DV matrix = [6, 5, 0, 4, 5]
+Updated from last DV matrix or the same? 
+Updated 
+
+Sending DV to node B
+Node B received DV from node C
+[6, 5, 0, 4, 5]
+Sending DV to node D
+Node D received DV from node C
+[6, 5, 0, 4, 5]
+
+Round 11: D
+Current DV matrix = [2, 4, 4, 0, 1]
+Last DV matrix = [2, 4, 4, 0, 1]
+Updated from last DV matrix or the same? 
+Not Updated 
+
+
+Round 11: E
+Current DV matrix = [1, 3, 5, 1, 0]
+Last DV matrix = [1, 3, 5, 1, 0]
+Updated from last DV matrix or the same? 
+Not Updated 
+
+
+Round 11: A
+Current DV matrix = [0, 2, 6, 2, 1]
+Last DV matrix = [0, 2, 6, 2, 1]
+Updated from last DV matrix or the same? 
+Not Updated 
+
+
+Round 11: B
+Current DV matrix = [2, 0, 5, 4, 3]
+Last DV matrix = [2, 0, 5, 4, 3]
+Updated from last DV matrix or the same? 
+Not Updated 
+
+
+Round 11: C
+Current DV matrix = [6, 5, 0, 4, 5]
+Last DV matrix = [6, 5, 0, 4, 5]
+Updated from last DV matrix or the same? 
+Not Updated 
+
+
+Round 11: D
+Current DV matrix = [2, 4, 4, 0, 1]
+Last DV matrix = [2, 4, 4, 0, 1]
+Updated from last DV matrix or the same? 
+Not Updated 
+
+
+Round 11: E
+Current DV matrix = [1, 3, 5, 1, 0]
+Last DV matrix = [1, 3, 5, 1, 0]
+Updated from last DV matrix or the same? 
+Not Updated 
+
+
+Finished at Round = 11
+A = [0, 2, 6, 2, 1]
+B = [2, 0, 5, 4, 3]
+C = [6, 5, 0, 4, 5]
+D = [2, 4, 4, 0, 1]
+E = [1, 3, 5, 1, 0]
+All Threads Closed
+
+Process finished with exit code 0
+
+For network 2
+
+[[0, 10, 10, 10, 10], [10, 0, 999999, 999999, 999999], [10, 999999, 0, 999999, 999999], [10, 999999, 999999, 0, 999999], [10, 999999, 999999, 999999, 0]]
+Node Server: A Listening. . .
+Node Server: B Listening. . .
+Node Server: C Listening. . .
+Node Server: D Listening. . .
+Node Server: E Listening. . .
+
+Round 1: A
+Current DV matrix = []
+Last DV matrix = [0, 10, 10, 10, 10]
+Updated from last DV matrix or the same? 
+Updated 
+
+Sending DV to node B
+Node B received DV from node A
+[0, 10, 10, 10, 10]
+Sending DV to node C
+Node C received DV from node A
+[0, 10, 10, 10, 10]
+Sending DV to node D
+Node D received DV from node A
+[0, 10, 10, 10, 10]
+Sending DV to node E
+Node E received DV from node A
+[0, 10, 10, 10, 10]
+
+Round 2: B
+Current DV matrix = []
+Last DV matrix = [10, 0, 999999, 999999, 999999]
+Updated from last DV matrix or the same? 
+Updated 
+
+Sending DV to node A
+Node A received DV from node B
+[10, 0, 999999, 999999, 999999]
+
+Round 3: C
+Current DV matrix = []
+Last DV matrix = [10, 20, 0, 20, 20]
+Updated from last DV matrix or the same? 
+Updated 
+
+Sending DV to node A
+Node A received DV from node C
+[10, 20, 0, 20, 20]
+
+Round 4: D
+Current DV matrix = []
+Last DV matrix = [10, 20, 20, 0, 20]
+Updated from last DV matrix or the same? 
+Updated 
+
+Sending DV to node A
+Node A received DV from node D
+[10, 20, 20, 0, 20]
+
+Round 5: E
+Current DV matrix = []
+Last DV matrix = [10, 20, 20, 20, 0]
+Updated from last DV matrix or the same? 
+Updated 
+
+Sending DV to node A
+Node A received DV from node E
+[10, 20, 20, 20, 0]
+
+Round 6: A
+Current DV matrix = [0, 10, 10, 10, 10]
+Last DV matrix = [0, 10, 10, 10, 10]
+Updated from last DV matrix or the same? 
+Not Updated 
+
+
+Round 6: B
+Current DV matrix = [10, 0, 999999, 999999, 999999]
+Last DV matrix = [10, 0, 20, 20, 20]
+Updated from last DV matrix or the same? 
+Updated 
+
+Sending DV to node A
+Node A received DV from node B
+[10, 0, 20, 20, 20]
+
+Round 7: C
+Current DV matrix = [10, 20, 0, 20, 20]
+Last DV matrix = [10, 20, 0, 20, 20]
+Updated from last DV matrix or the same? 
+Not Updated 
+
+
+Round 7: D
+Current DV matrix = [10, 20, 20, 0, 20]
+Last DV matrix = [10, 20, 20, 0, 20]
+Updated from last DV matrix or the same? 
+Not Updated 
+
+
+Round 7: E
+Current DV matrix = [10, 20, 20, 20, 0]
+Last DV matrix = [10, 20, 20, 20, 0]
+Updated from last DV matrix or the same? 
+Not Updated 
+
+
+Round 7: A
+Current DV matrix = [0, 10, 10, 10, 10]
+Last DV matrix = [0, 10, 10, 10, 10]
+Updated from last DV matrix or the same? 
+Not Updated 
+
+
+Round 7: B
+Current DV matrix = [10, 0, 20, 20, 20]
+Last DV matrix = [10, 0, 20, 20, 20]
+Updated from last DV matrix or the same? 
+Not Updated 
+
+
+Round 7: C
+Current DV matrix = [10, 20, 0, 20, 20]
+Last DV matrix = [10, 20, 0, 20, 20]
+Updated from last DV matrix or the same? 
+Not Updated 
+
+
+Round 7: D
+Current DV matrix = [10, 20, 20, 0, 20]
+Last DV matrix = [10, 20, 20, 0, 20]
+Updated from last DV matrix or the same? 
+Not Updated 
+
+
+Round 7: E
+Current DV matrix = [10, 20, 20, 20, 0]
+Last DV matrix = [10, 20, 20, 20, 0]
+Updated from last DV matrix or the same? 
+Not Updated 
+
+
+Finished at Round = 7
+A = [0, 10, 10, 10, 10]
+B = [10, 0, 20, 20, 20]
+C = [10, 20, 0, 20, 20]
+D = [10, 20, 20, 0, 20]
+E = [10, 20, 20, 20, 0]
+All Threads Closed
+
+Process finished with exit code 0
